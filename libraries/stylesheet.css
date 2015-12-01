@@ -1,0 +1,27 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+.border {
+  border: 6px solid black;
+}
+.borderinsert {
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
+}
+.normal {
+  background-color: white;
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+  margin: 0;
+  padding: 6px;
+  text-align: center;
+}
+.fixed {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
